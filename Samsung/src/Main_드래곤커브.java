@@ -58,7 +58,7 @@ public class Main_드래곤커브 {
 //			}
 //			System.out.println();
 
-			dfs(dragon[i][0], dragon[i][1], way);
+			makeDragon(dragon[i][0], dragon[i][1], way);
 		}
 
 		for (int i = 0; i < 101; i++) {
@@ -110,7 +110,7 @@ public class Main_드래곤커브 {
 
 	}
 
-	private static void dfs(int x, int y, int[] way) {
+	private static void makeDragon(int x, int y, int[] way) {
 
 		map[x][y] = true;
 
