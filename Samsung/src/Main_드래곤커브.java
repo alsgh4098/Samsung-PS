@@ -9,9 +9,6 @@ public class Main_드래곤커브 {
 	// 1 위쪽
 	// 2 왼쪽
 	// 3 아래쪽
-
-	// 끝점의 방향에서 왼쪽
-	// 인덱스에 따라 끝점의 방향이 0일때 1,2,3일때 왼쪽
 	static int[] dx = { 0, -1, 0, 1 };
 	static int[] dy = { 1, 0, -1, 0 };
 	static int res;
